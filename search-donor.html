@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Donor | LifeSaver</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Yahan index.html wala Navbar paste karo -->
+    </header>
+
+    <section class="search-section">
+
+        <h1>Find Blood Donors</h1>
+        <p>Search donors by blood group and city.</p>
+
+        <form id="searchForm">
+
+            <select id="searchBlood" required>
+                <option value="">Select Blood Group</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>O+</option>
+                <option>O-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+
+            <input type="text" id="searchCity"
+                placeholder="Enter City" required>
+
+            <button type="submit">Search Donors</button>
+
+        </form>
+
+        <div id="searchResults"></div>
+
+    </section>
+
+    <script src="JS/script.js"></script>
+
+</body>
+</html>
